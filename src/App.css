@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  box-sizing: border-box;
+  color:#d6d0d0;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden; 
+  font-family: "Montserrat", serif;
+  
+  
+ 
+}
+
+.anime-name{
+  margin: 10px 0;
+  font-size: 25px;
+  font-family: "Montserrat", serif;
+}
+h2{
+  margin: 20px 0;
+  color: #aaacaf;
+  font-weight: bold;
+}
+i{
+ margin-left: 8px;
+}
+.status{
+  background-color: #206ac4;
+  color: #0c2442;
+  border-radius: 10px;
+  padding: 5px;
+}
+.description{
+  font-size: 14px;
+  color: #b4bdc7;
+  
+}
+.button {
+  flex-shrink: 0;
+  padding: 10px 15px;
+  background-color: #353535;
+  color: #fff;
+  border: 1px solid #444;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 300px;
+}
+.container{
+  margin: auto;
+  width: 1000px;
+  height: 65px;
+  position: relative;
+  display: flex; 
+  justify-content: left;
+  align-items: center;
+}
+header img {
+  width: 60px;
+  position: relative;
+}
+
+.logo-name {
+  position: relative;
+ 
+  
+  
+  color: white;
+  font-size: 28px;
+  font-family: "Montserrat", serif;
+}
+
+
+
+
+
+
+.center {
+  width: 1100px;
+  border-radius: 5px;
+  margin: 90px auto;
+  padding: 20px;
+  background: rgba(57, 58, 63, 0.8); 
+  color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
