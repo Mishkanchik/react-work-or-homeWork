@@ -1,0 +1,13 @@
+.FilmName{
+    text-align: center;
+}
+
+.FilmName h3{
+    margin: 10px 0;
+    font-size: 20px;
+    
+}
+
+.FilmName h5{
+    font-size: 15px;
+}

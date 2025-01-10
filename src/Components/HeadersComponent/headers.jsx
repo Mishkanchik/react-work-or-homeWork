@@ -22,7 +22,7 @@ function HeaderComponent() {
     <>
       <Navbar bg="dark" data-bs-theme="dark">
         <Container>
-          <NavLink to="/" end>
+          <NavLink to="/" end style={{margin:"0 10px",textDecoration : "none"}}>
             <Navbar.Brand>Navbar</Navbar.Brand>
           </NavLink>
           <Nav className="me-auto">
@@ -31,8 +31,9 @@ function HeaderComponent() {
               className={({ isActive }) =>
                 isActive ? "colorActive" : "colorDefault"
               }
+              style={{margin:"0 10px",textDecoration : "none"}}
             >
-              <Nav.Link>Music</Nav.Link>
+              Music
             </NavLink>
 
             <NavLink
@@ -40,8 +41,9 @@ function HeaderComponent() {
               className={({ isActive }) =>
                 isActive ? "colorActive" : "colorDefault"
               }
+              style={{margin:"0 10px",textDecoration : "none"}}
             >
-              <Nav.Link>Recipe</Nav.Link>
+              Recipe
             </NavLink>
 
             <NavLink
@@ -49,8 +51,9 @@ function HeaderComponent() {
               className={({ isActive }) =>
                 isActive ? "colorActive" : "colorDefault"
               }
+              style={{margin:"0 10px",textDecoration : "none"}}
             >
-              <Nav.Link>Bibliography of Shakespeare</Nav.Link>
+              Bibliography of Shakespeare
             </NavLink>
 
             <NavLink
@@ -58,18 +61,11 @@ function HeaderComponent() {
               className={({ isActive }) =>
                 isActive ? "colorActive" : "colorDefault"
               }
+              style={{margin:"0 10px",textDecoration : "none"}}
             >
-              <Nav.Link>Favorite movie</Nav.Link>
+              Favorite movie
             </NavLink>
 
-            <NavLink
-              to="/a-pet"
-              className={({ isActive }) =>
-                isActive ? "colorActive" : "colorDefault"
-              }
-            >
-              <Nav.Link>A pet</Nav.Link>
-            </NavLink>
           </Nav>
           
           <span style={{ color: "white", marginLeft: "auto" }}>
